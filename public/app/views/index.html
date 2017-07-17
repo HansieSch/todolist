@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <title>To Do List</title>
+        
+        <base href="/">
+        
+        <link rel="stylesheet" href="assets/lib/css/reset.min.css" type="text/css">
+        <link rel="stylesheet" href="assets/lib/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <script src="assets/lib/js/angular.js"></script>
+        <script src="assets/lib/js/angular-route.js"></script>
+        <script src="assets/lib/js/jquery.min.js"></script>
+        <script src="assets/lib/js/bootstrap.min.js"></script>
+        
+        <script src="app/services/backendService.js"></script>
+        
+        <script src="app/controllers/mainCtrl.js"></script>
+        <script src="app/controllers/itemCtrl.js"></script>
+        
+        <script src="app/app.js"></script>
+        <script src="app/app.routes.js"></script>
+    </head>
+    <body ng-app="todoApp">
+        
+        <div ng-view></div>
+        
+    </body>
+</html>

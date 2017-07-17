@@ -1,0 +1,29 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "A simple MEAN stack to do list application.",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "bcryptjs": "^2.3.0",
+    "connect": "^2.8.8",
+    "debug": "^1.0.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "formidable": "^1.0.14",
+    "mime": "^1.2.11",
+    "jsonwebtoken": "^7.1.1",
+    "mongoose": "^3.8.15",
+    "mongoskin": "^2.1.0",
+    "morgan": "^1.0.1",
+    "mongodb": "^2.1.21",
+    "body-parser": "^1.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hansie Schreuder",
+  "license": "ISC"
+}

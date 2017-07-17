@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        <h1>New Todo Item</h1>
+    </div>
+    <div class="row">
+        <form class="col-sm-8" ng-submit="new.createNewItem();">
+            <div class="form-group">
+                <label for="item">Description: </label>
+                <input type="text" class="form-control" id="item" placeholder="Description" required ng-model="new.newItemData.item">
+            </div>
+            <button class="btn btn-default" type="submit" ng-click="">Create New Item</button>
+        </form>
+    </div>
+</div>

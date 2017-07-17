@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e8e8e8;
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+.container {
+    width: 80%;
+}
+
+.glyphicon {
+    margin-right: 0.5em;
+}
+
+.done-button {
+    cursor: pointer;
+}
+
+.done-button.glyphicon-ok {
+    color: green;
+}
+
+.done-button.glyphicon-remove {
+    color: red;
+}
+
+.list-button {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    padding: 0.5em 1em;
+}
+
+.list-button.edit {
+    transform: translate(-99%, 0);
+    background-color: #48bee5;
+    color: white;
+}
+
+.list-button .glyphicon {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.list-button.delete {
+    transform: translate(-99%, -100%);
+    top: 100%;
+    background-color: #48bee5;
+    color: white;
+}
+
+.list-group-item {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.list-group {
+    padding: 0;
+}
+
+header {
+    margin-bottom: 1em;
+}
+
+header .glyphicon {
+    margin: 0;
+    font-size: 3em;
+}
+
+.btn-default {
+    outline: none;
+}
